@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800');
+* {
+    box-sizing: border-box;
+}
+
+#Title h1{
+    text-align: center;
+    color: #107D1A;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FEC814;
+    background-size:cover;
+    border-style: solid;
+    
+}
+
+#pumpkin{
+    float: right;
+}
+
+
+h2 div {
+    position: relative;
+    top: -100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: #FEC814;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FEC814;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid #FEC814;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: FEC814;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FEC814;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+#price {
+    position: relative;
+    top: -112px;
+    left: 60px;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Intro{
+    color: #107D1A;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+
+}
+
+ body {
+    color: #107D1A;
+}
+
+#bottom{
+    padding: 200px;
+}
+
+footer{
+    height: 300px;
+}
+
+#Title {
+    padding: 50px;
+}
+
+#Actual {
+    text-align: center;
+    top: 50px;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#before {
+     text-align: center;
+     color: #8B4513;
+     font-family: 'Raleway', sans-serif;
+}
+
+#after {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#reviews {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Filled {
+    font-size: 2em;
+    text-align: center;
+    background-color: #8B4513;
+    color: #FEC814;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#emoji {
+    position: relative;
+    bottom: -220px;
+}
+
+#lotsoffraps {
+    position: relative;
+    bottom: -122px;
+}
+
+#save {
+    position: relative;
+    bottom: -122px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#wow {
+    position: relative;
+    bottom: -122px;
+}
+
+#stress {
+    border: 25px solid #8B4513;
+}
+
+#stress2 {
+    border: 25px solid #8B4513;
+}
+
+#jumping {
+    border: 25px solid #107D1A;
+}
+
+#happy {
+    border: 25px solid #107D1A;
+}
+
+#save {
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 25px;
+    width: relative;
+    padding: 10px 10px 10px;
+    background: #FEC814;
+    
+}
+
+#holidaydrinks {
+    border: 10px solid #8B4513;
+}
+
+#reviews {
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quotes {
+    border-radius: 25px;
+    padding: 10px 10px 10px;
+    background: #FEC814;
+    font-family: 'Raleway', sans-serif;
+}
+
